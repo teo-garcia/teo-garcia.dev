@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.4",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
@@ -17,7 +18,9 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
+    "@emotion/babel-plugin": "^11.1.2",
     "@testing-library/cypress": "^7.0.3",
     "@testing-library/jest-dom": "github:testing-library/jest-dom",
     "@testing-library/react": "^11.2.3",
